@@ -26,18 +26,16 @@ export default function Auth(){
       <Image style={styles.img2} source={require('./img/el2.png')} /> 
           <Text style={styles.text}>Sign In</Text>
         <Image style={styles.img3} source={require('./img/el3.png')} /> 
-      <View style={styles.inputField}>
+      
         <TextInput
-        style={styles.input1}
         placeholder="email"
         keyboardType="numeric"
         />
       <TextInput
-        style={styles.input1}
         placeholder="password"
         keyboardType="numeric"
         />
-      </View>
+     
     </View>
      
     )
@@ -78,7 +76,6 @@ const styles=StyleSheet.create({
     top: '0'
   },
   inputField:{
-    position: 'absolute',
     left: '0%',
     right: '0%',
     top: '72.84%',
